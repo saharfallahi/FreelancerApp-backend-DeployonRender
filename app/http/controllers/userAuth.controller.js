@@ -217,7 +217,6 @@ class userAuthController extends Controller {
       expires: Date.now(),
       httpOnly: true,
       signed: true,
-      // sameSite: "Lax",
       sameSite: "None",
       secure: true,
       path: "/",
